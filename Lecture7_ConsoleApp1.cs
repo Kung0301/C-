@@ -4,7 +4,7 @@ namespace ConsoleApp1
 {
     class Program
     {
-        static void Main(string[] args)
+        public void Main(string[] args)
         {
             string firstName = Console.ReadLine();
             string lastName = Console.ReadLine();

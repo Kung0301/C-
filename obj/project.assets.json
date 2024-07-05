@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\Chanyapat(Pat)\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C#\\C#.csproj",
+      "projectUniqueName": "C:\\Users\\Chanyapat(Pat)\\Documents\\GitHub\\CS\\C#.csproj",
       "projectName": "C#",
-      "projectPath": "D:\\C#\\C#.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\C#\\obj\\",
+      "projectPath": "C:\\Users\\Chanyapat(Pat)\\Documents\\GitHub\\CS\\C#.csproj",
+      "packagesPath": "C:\\Users\\Chanyapat(Pat)\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Chanyapat(Pat)\\Documents\\GitHub\\CS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Chanyapat(Pat)\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
