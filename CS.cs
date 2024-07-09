@@ -14,7 +14,7 @@ namespace CS
             Console.ReadLine();
         }
     }*/
-    class Condition
+    /*class Condition
     {
         static void Main(string[] args)
         {
@@ -40,6 +40,29 @@ namespace CS
                 Console.WriteLine("F");
             }
             Console.ReadLine();
+        }
+    }*/
+    class Loop
+    {
+        static void Main(string[] args)
+        {
+            /*int i = 0;
+            while(i < 3)
+            {
+                Console.WriteLine("Hello");
+                i = i++;
+            }*/
+            /*for(int x = 0; x < 10; x++)
+            {
+                Console.WriteLine("Hello" + x);
+            }*/
+            int count = 0;
+            do
+            {
+                Console.WriteLine("Hello" + count);
+                count++;
+            }
+            while (count < 10);
         }
     }
 }
