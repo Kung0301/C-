@@ -67,11 +67,11 @@ namespace CS
             while (count < 10);
         }
     }*/
-    class Array
+    /*class Array
     {
         static void Main(string[] args)
         {
-            /*int[] ages = {18,12,15,14,16,28,32,89};
+            int[] ages = {18,12,15,14,16,28,32,89};
             for(int i = 0; i < 3; i++)
             {
                 Console.WriteLine(ages[i]);
@@ -80,7 +80,7 @@ namespace CS
             foreach(int data in ages)
             {
                 Console.WriteLine(data);
-            }*/
+            }
 
             string[][] users = new string[3][];
             for(int i = 0; i < 1; i++)
@@ -98,5 +98,37 @@ namespace CS
                 Console.WriteLine(users[i][0]+" "+users[i][1]+" "+users[i][2]);
             }
         }
+    }*/
+    class Method
+    {
+        static void Main(string[] args)
+        {
+            cal();
+        }
+        private static void sayHelloWorldx10()
+        {
+            for(int i = 0; i < 10; i++)
+            {
+                Console.WriteLine("Hello World");
+                Console.WriteLine(calculate());
+            }
+        }
+        private static int calculate()
+        {
+            int a = 1;
+            int b = 2;
+            int sum = a + b;
+            return sum;
+        }
+        private static void cal()
+        {
+            Console.WriteLine("Enter Number");
+            int number = int.Parse(Console.ReadLine());
+            Console.WriteLine(number + "+"+"2"+"="+(number+2));
+            Console.WriteLine(number + "-"+"2"+"="+(number-2));
+            Console.WriteLine(number + "*"+"2"+"="+(number*2));
+            Console.WriteLine(number + "/"+"2"+"="+(number/2));
+        }
+        
     }
 }
